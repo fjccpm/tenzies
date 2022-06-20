@@ -1,24 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
-
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main className="tenzies--main">
+      <div className="tenzies--container">
+        <div className="tenzies--tittle">Tenzies</div>
+        <div className="tenzies--subtittle">Roll until all dice are the same. 
+        Click each die to freeze it at its current value between rolls.</div>
+      </div>
+    </main>
   );
 }
 
