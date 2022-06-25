@@ -77,6 +77,7 @@ React.useEffect(
             }]
       }
       setDices(temp)
+      setSelected(-1)
       setTenzies(false)
     }
  }
